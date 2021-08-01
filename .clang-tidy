@@ -1,0 +1,25 @@
+Checks: "\
+bugprone-*,\
+performance-*,\
+portability-*,\
+cppcoreguidelines-*,\
+-clang-diagnostic-unused-function,\
+-performance-move-const-arg,\
+-cppcoreguidelines-avoid-c-arrays,\
+-cppcoreguidelines-pro-bounds-constant-array-index,\
+-cppcoreguidelines-avoid-magic-numbers,\
+-cppcoreguidelines-macro-usage,\
+-cppcoreguidelines-pro-type-vararg,\
+-cppcoreguidelines-pro-bounds-array-to-pointer-decay,\
+-cppcoreguidelines-pro-type-reinterpret-cast,\
+-cppcoreguidelines-pro-type-cstyle-cast,\
+-cppcoreguidelines-pro-bounds-pointer-arithmetic,\
+-cppcoreguidelines-init-variables,\
+-cppcoreguidelines-pro-type-union-access,\
+-cppcoreguidelines-non-private-member-variables-in-classes,\
+-cppcoreguidelines-special-member-functions,\
+-cppcoreguidelines-owning-memory,\
+-cppcoreguidelines-no-malloc\
+"
+
+HeaderFilterRegex: .*
